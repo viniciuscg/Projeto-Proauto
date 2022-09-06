@@ -8,8 +8,6 @@ app.use(express.json())
 app.use(cors())
 app.use(associateRoutes)
 
-console.log(process.env.baldo)
-
 app.listen(3333, () => {
     console.log("Server running at 3333")
 })
