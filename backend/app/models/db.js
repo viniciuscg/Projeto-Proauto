@@ -1,5 +1,4 @@
 import mysql from 'mysql'
-import { dbconfig } from '../config/db.config.js'
 import dotenv from 'dotenv'
 
 dotenv.config()
